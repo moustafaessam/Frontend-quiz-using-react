@@ -123,6 +123,7 @@ export function playAgain() {
   return { type: "quiz/playAgain" };
 }
 
+// Install the dependecy first of redux dev tools
 // const store = createStore(
 //   quizReducer,
 //   composeWithDevTools(applyMiddleware(thunk))
