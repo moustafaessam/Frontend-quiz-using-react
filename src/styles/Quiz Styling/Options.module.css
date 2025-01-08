@@ -1,0 +1,144 @@
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.option {
+  display: flex;
+  gap: 3.2rem;
+  padding: 1.8rem 2rem;
+  width: 56.4rem;
+  border-radius: 2.4rem;
+  align-items: center;
+  cursor: pointer;
+  border: 3px solid transparent;
+}
+
+.clicked {
+  border: 3px solid var(--purple) !important;
+}
+
+.clicked .optionLetterContainer {
+  background-color: var(--purple) !important;
+}
+
+.clicked .optionLetter {
+  color: var(--pure-white) !important;
+}
+
+.correct {
+  border: 3px solid var(--green) !important;
+}
+
+.correct .optionLetterContainer {
+  background-color: var(--green) !important;
+}
+
+.correct .optionLetter {
+  color: var(--pure-white) !important;
+}
+
+.wrong {
+  border: 3px solid var(--red) !important;
+}
+
+.wrong .optionLetterContainer {
+  background-color: var(--red) !important;
+}
+
+.wrong .optionLetter {
+  color: var(--pure-white) !important;
+}
+
+.option:hover .optionLetterContainer {
+  background-color: #f6e7ff;
+}
+
+.option:hover .optionLetter {
+  color: var(--purple);
+}
+
+.optionLight {
+  background-color: var(--pure-white);
+}
+
+.optionDark {
+  background-color: var(--navy);
+}
+
+.optionLetterContainer {
+  min-width: 5.6rem;
+  height: 5.6rem;
+  background-color: var(--light-grey);
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.optionLetter {
+  color: var(--grey-navy);
+  font-family: "Rubik Medium";
+  font-size: 2.8rem;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.optionContent {
+  font-family: "Rubik Medium";
+  font-size: 2.8rem;
+}
+
+.optionContentLight {
+  color: var(--dark-navy);
+}
+
+.optionContentDark {
+  color: var(--pure-white);
+}
+
+.checkAnswerImg {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.answerImg {
+  width: 4rem;
+  height: 4rem;
+}
+
+@media (max-width: 768px) {
+  .option {
+    width: auto;
+    padding: 1.2rem;
+  }
+  .optionLetterContainer {
+    border-radius: 1.2rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .optionsContainer {
+    gap: 1.2rem;
+  }
+  .option {
+    gap: 1.6rem;
+  }
+  .optionLetterContainer {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.6rem;
+  }
+  .optionLetter {
+    font-size: 1.8rem;
+  }
+  .optionContent {
+    font-size: 1.8rem;
+  }
+  .answerImg {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+}

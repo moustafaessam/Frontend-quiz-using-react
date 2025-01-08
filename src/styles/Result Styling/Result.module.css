@@ -1,0 +1,28 @@
+.resultSection {
+  /* border: 3px solid darkorange; */
+  max-width: 116rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: var(--85);
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .resultSection {
+    max-width: 64rem;
+    justify-content: flex-start;
+    gap: 6.4rem;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 420px) {
+  .resultSection {
+    padding: 3.2rem 2.4rem 0 2.4rem;
+    width: 100%;
+    margin-top: 0;
+    flex-grow: 1;
+    gap: 4rem;
+  }
+}

@@ -1,0 +1,20 @@
+.playAgainButton {
+  padding: 3.2rem;
+  border-radius: 2.4rem;
+  background-color: var(--purple);
+  display: flex;
+  justify-content: center;
+  color: var(--pure-white);
+  font-size: 2.8rem;
+  font-family: "Rubik Medium";
+  cursor: pointer;
+}
+
+@media (max-width: 420px) {
+  .playAgainButton {
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    border-radius: 1.2rem;
+    height: auto;
+  }
+}

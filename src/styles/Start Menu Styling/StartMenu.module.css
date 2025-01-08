@@ -1,0 +1,29 @@
+.startMenuSection {
+  display: flex;
+  justify-content: space-between;
+  max-width: 116rem;
+  /* border: 3px solid rgb(90, 205, 125); */
+  margin: 0 auto;
+  margin-top: var(--85);
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .startMenuSection {
+    flex-direction: column;
+    gap: var(--64);
+    margin-top: var(--49);
+    max-width: 64rem;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 420px) {
+  .startMenuSection {
+    margin-top: 0;
+    width: 100%;
+    gap: var(--40);
+    padding: var(--32) var(--24) 0 var(--24);
+    flex-grow: 1;
+  }
+}

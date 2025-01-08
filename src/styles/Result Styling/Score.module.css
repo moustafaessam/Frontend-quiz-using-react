@@ -1,0 +1,108 @@
+.scoreContainer {
+  padding: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  /* border: 3px solid firebrick; */
+  border-radius: 2.4rem;
+}
+
+.scoreContainerLight {
+  background-color: var(--pure-white);
+}
+
+.scoreContainerDark {
+  background-color: var(--navy);
+}
+
+.header {
+  /* border: 3px solid red; */
+  display: flex;
+  gap: 2.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 0.8rem;
+}
+
+.imgResult {
+  width: 4rem;
+  height: 4rem;
+}
+
+.quizName {
+  font-family: "Rubik Medium";
+  font-size: 2.8rem;
+}
+
+.quizNameLight {
+  color: var(--dark-navy);
+}
+
+.quizNameDark {
+  color: var(--pure-white);
+}
+
+.finalResult {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  /* border: 3px solid greenyellow; */
+}
+
+.finalResultNumber {
+  font-family: "Rubik Medium";
+  font-size: 14.4rem;
+}
+
+.finalResultNumberLight {
+  color: var(--dark-navy);
+}
+
+.finalResultNumberDark {
+  color: var(--pure-white);
+}
+
+.outOfText {
+  font-family: "Rubik Regular";
+  font-size: 2.4rem;
+  line-height: 150%;
+}
+
+.outOfTextLight {
+  color: var(--grey-navy);
+}
+
+.outOfTextDark {
+  color: var(--light-bluish);
+}
+
+@media (max-width: 420px) {
+  .scoreContainer {
+    padding: 3.2rem;
+    gap: 1.6rem;
+    border-radius: 1.2rem;
+  }
+  .header {
+    gap: 1.6rem;
+  }
+  .quizName {
+    font-size: 1.8rem;
+  }
+  .finalResultNumber {
+    font-size: 8.8rem;
+  }
+  .outOfText {
+    font-size: 1.8rem;
+    line-height: 100%;
+  }
+}

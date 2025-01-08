@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Rubik Italic";
+  src: url("./fonts/static/Rubik-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Rubik Medium";
+  src: url("./fonts/static/Rubik-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Rubik Regular";
+  src: url("./fonts/static/Rubik-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("./fonts/Rubik-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body,
+html,
+#root {
+  min-width: 100vw;
+  min-height: 100vh;
+  width: fit-content;
+}
+
+:root {
+  /* Colors */
+  --purple: #a729f5;
+  --pure-white: #ffffff;
+  --dark-navy: #313e51;
+  --grey-navy: #626c7f;
+  --light-grey: #f4f6fa;
+  --navy: #3b4d66;
+  --light-bluish: #abc1e1;
+  --green: #26d782;
+  --red: #ee5454;
+  /* Spaces */
+  --4: 0.4rem;
+  --8: 0.8rem;
+  --12: 1.2rem;
+  --16: 1.6rem;
+  --20: 2rem;
+  --24: 2.4rem;
+  --32: 3.2rem;
+  --40: 4rem;
+  --48: 4.8rem;
+  --49: 4.9rem;
+  --64: 6.4rem;
+  --85: 8.5rem;
+}

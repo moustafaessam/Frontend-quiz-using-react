@@ -1,0 +1,57 @@
+.startMenuheaderContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--48);
+  /* border: 3px solid yellow; */
+  height: fit-content;
+}
+
+.header {
+  font-size: 6.4rem;
+}
+
+.headerpar1 {
+  font-family: "Rubik";
+  font-weight: 100;
+}
+
+.headerpar2 {
+  font-family: "Rubik Medium";
+}
+
+.lightHeader {
+  color: var(--dark-navy);
+}
+
+.darkHeader {
+  color: var(--pure-white);
+}
+
+.headerNote {
+  font-family: "Rubik Italic";
+  line-height: 150%;
+  font-size: 2rem;
+}
+
+.headerNoteLight {
+  color: var(--grey-navy);
+}
+
+.headerNoteDark {
+  color: var(--light-bluish);
+}
+
+@media (max-width: 768px) {
+  .startMenuheaderContainer {
+    gap: var(--16);
+  }
+}
+
+@media (max-width: 420px) {
+  .header {
+    font-size: 4rem;
+  }
+  .headerNote {
+    font-size: 1.4rem;
+  }
+}

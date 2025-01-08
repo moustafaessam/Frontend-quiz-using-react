@@ -1,0 +1,27 @@
+.appWrap {
+  min-width: 100vw;
+  min-height: 100vh;
+  width: fit-content;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.lightStyle {
+  background-image: url("/images/pattern-background-desktop-light.svg");
+  background-color: var(--light-grey);
+}
+
+.darkStyle {
+  background-image: url("/images/pattern-background-desktop-dark.svg");
+  background-color: var(--dark-navy);
+}
+
+@media (max-width: 420px) {
+  .lightStyle {
+    background-image: url("/images/pattern-background-mobile-light.svg");
+  }
+  .darkStyle {
+    background-image: url("/images/pattern-background-mobile-dark.svg");
+  }
+}

@@ -1,0 +1,64 @@
+.modeContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--16);
+  /* border: 3px solid sienna; */
+}
+
+.lightImgContainer,
+.moonImgContainer {
+  width: 2.4rem;
+  height: 2.4rem;
+  /* border: 3px solid green; */
+}
+
+.lightImg,
+.darkImg {
+  width: 100%;
+  height: 100%;
+}
+
+.modeSwitchContainer {
+  padding: var(--4);
+  background-color: var(--purple);
+  border-radius: 999px;
+  display: flex;
+  /* border: 3px solid red; */
+}
+
+.modeSwitchCircle {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--pure-white);
+  border-radius: 999px;
+}
+
+.modeWhite {
+  background-color: var(--pure-white);
+}
+
+.modePurple {
+  background-color: var(--purple);
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 420px) {
+  .modeContainer {
+    gap: var(--8);
+  }
+  .lightImgContainer,
+  .moonImgContainer {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+  .modeSwitchCircle {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}

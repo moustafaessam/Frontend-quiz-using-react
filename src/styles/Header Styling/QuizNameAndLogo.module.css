@@ -1,0 +1,52 @@
+.quizSelected {
+  display: flex;
+  gap: 2.4rem;
+  /* border: 3px solid teal; */
+  align-items: center;
+}
+
+.quizSelectedLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 0.8rem;
+}
+
+.imgLogo {
+  width: 4rem;
+  height: 4rem;
+}
+
+.quizSelectedName {
+  font-family: "Rubik Medium";
+  font-size: 2.8rem;
+  line-height: 100%;
+}
+
+.quizSelectedNameLight {
+  color: var(--dark-navy);
+}
+
+.quizSelectedNameDark {
+  color: var(--pure-white);
+}
+
+@media (max-width: 420px) {
+  .quizSelected {
+    gap: 1.6rem;
+  }
+  .quizSelectedLogo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.4rem;
+  }
+  .imgLogo {
+    width: 2.857rem;
+    height: 2.857rem;
+  }
+  .quizSelectedName {
+    font-size: 1.8rem;
+  }
+}

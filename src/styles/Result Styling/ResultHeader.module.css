@@ -1,0 +1,41 @@
+.resultHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.parg1 {
+  font-family: "Rubik";
+  font-weight: 100;
+  font-size: 6.4rem;
+}
+
+.parg1Light {
+  color: var(--dark-navy);
+}
+
+.parg1Dark {
+  color: var(--pure-white);
+}
+
+.parg2 {
+  font-family: "Rubik Medium";
+  font-size: 6.4rem;
+}
+
+.parg1Light {
+  color: var(--dark-navy);
+}
+
+.parg2Dark {
+  color: var(--pure-white);
+}
+
+@media (max-width: 420px) {
+  .parg1 {
+    font-size: 4rem;
+  }
+  .parg2 {
+    font-size: 4rem;
+  }
+}

@@ -1,0 +1,21 @@
+.scoreAndButtonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  max-width: 56.4rem;
+  width: 100%;
+  /* border: 3px solid black; */
+}
+
+@media (max-width: 768px) {
+  .scoreAndButtonContainer {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .scoreAndButtonContainer {
+    gap: 1.2rem;
+    height: 31rem;
+  }
+}
